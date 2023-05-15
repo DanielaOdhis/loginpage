@@ -1,0 +1,81 @@
+.rectangle {
+    width: 1100px;
+    height: 600px;
+    padding: 10px;
+    display:flex;
+    background-color:white;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+}
+body{
+    background-color:rosybrown;
+}
+.image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.text{
+    width: 50%;
+    position: absolute;
+    float: left;
+    right: 50%;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+.div2 {
+    position: absolute;
+    right: 0;
+    text-align:justify;
+    top: 40px;
+    margin-right: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.textbox {
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    font-size: 16px;
+    outline: none;
+    width: 280px;
+}
+.buttonblack {
+    display: inline-block;
+    padding: 20px 90px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .googlebutton{
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .image2{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+  }
